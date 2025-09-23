@@ -1,6 +1,6 @@
 #!/bin/bash
-PERSON1=khaja
-PERSON2=raja
+PERSON1=fayum
+PERSON2=muffin
 echo "hi what man whats going on $PERSON2"
 echo "ntg man what are doing $PERSON1"
 echo "where ar u working right now $PERSON2"
