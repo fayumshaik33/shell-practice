@@ -6,3 +6,5 @@ echo "who is running this script ::$USER"
 echo "the home directory of the user ::$HOME"
 echo "current working directory ::$PWD"
 echo "pid of this script ::$$"
+sleep 50 &
+echo "the pid of last backgroung is ::$!"
