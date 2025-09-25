@@ -10,3 +10,4 @@ sleep 50 &
 echo "the pid of last backgroung is ::$!"
 leader=("fayum" "muffin")
 echo "the leaders are ::${leader[@]}"
+echo "the first leaderis :;${leader[1]}"
