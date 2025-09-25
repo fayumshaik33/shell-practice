@@ -1,9 +1,8 @@
 #!/bin/bash
-number=$1
-if [ $number -lt 9 ]; then
-    echo "the number is less than 9"
-elif [ $number -eq 9 ]; then
-    echo "the number is equal to 9"
+echo "place enter the number"
+read number
+if [ $(($number % 2))]; then 
+    echo "given number $number is even"
 else
-    echo "the number is bigger to 9"
+    echo "given number $number is odd"
 fi
