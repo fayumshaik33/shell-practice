@@ -8,3 +8,5 @@ echo "current working directory ::$PWD"
 echo "pid of this script ::$$"
 sleep 50 &
 echo "the pid of last backgroung is ::$!"
+leader=("fayum" "muffin")
+echo "the leaders are ::${leader[@]}"
