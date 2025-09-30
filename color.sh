@@ -1,4 +1,5 @@
 #! bin/bash
-
-echo -e "\e[33m just print the what i have said to u"$n
+r="\e[33m"
+n="\e[0m"
+echo -e "$r just print the what i have said to u $n"
 echo " this is main print of to chain of "
